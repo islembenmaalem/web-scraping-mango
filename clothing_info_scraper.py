@@ -104,7 +104,7 @@ with sync_playwright() as p:
         product_data = json.load(json_file)
 
     # Open output.json for writing
-    with open("outputfinalaktharmen199.json", "w") as json_file:
+    with open("output.json", "w") as json_file:
         json_file.write("[\n")  # Start the list
         print("number of lines we have to precess is : ",len(product_data["products"]))
         i = 0
